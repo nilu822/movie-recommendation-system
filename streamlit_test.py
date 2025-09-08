@@ -28,5 +28,6 @@ selected_movie = st.selectbox(
     movies['title'].values)
 
 if st.button('Show Recommendation'):
-    recommend(selected_movie)
-    st.write(selected_movie)
+    recommendations=recommend(selected_movie)
+    for i in recommendations:
+    st.write(i)
