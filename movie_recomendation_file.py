@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
 
 # In[1]:
 import numpy as np # linear algebra
