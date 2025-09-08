@@ -30,4 +30,4 @@ selected_movie = st.selectbox(
 if st.button('Show Recommendation'):
     recommendations=recommend(selected_movie)
     for i in recommendations:
-    st.write(i)
+        st.write(i)
