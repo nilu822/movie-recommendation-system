@@ -251,7 +251,10 @@ recommend('John Carter')
 recommend('Avengers: Age of Ultron')
 
 
-# In[ ]:
+import pickle
+
+pickle.dump(new,open('movie_list.pkl','wb'))
+pickle.dump(similarity,open('similarity.pkl','wb'))
 
 
 
