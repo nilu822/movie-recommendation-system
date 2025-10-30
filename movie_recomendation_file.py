@@ -253,7 +253,7 @@ recommend('Avengers: Age of Ultron')
 
 import pickle
 
-pickle.dump(new_df,open('movies.pkl','wb'))
+pickle.dump(new,open('movies_dict.pkl','wb'))
 pickle.dump(similarity,open('similarity.pkl','wb'))
 
 
