@@ -254,6 +254,7 @@ recommend('Avengers: Age of Ultron')
 import pickle
 
 pickle.dump(new,open('movies_dict.pkl','wb'))
+pickle.dump(new.to_dict(),open('movies_dict.pkl','wb'))
 pickle.dump(similarity,open('similarity.pkl','wb'))
 
 
